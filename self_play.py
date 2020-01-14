@@ -10,14 +10,13 @@ def prCyan(skk): return "\033[96m {}\033[00m".format(skk)
 def prLightGray(skk): return "\033[97m {}\033[00m".format(skk)
 
 
-boardsize = (5, 6)
+boardsize = (6, 6)
 
 
-<<<<<<< HEAD
-icons = {1: prRed('+'), 0: prLightGray('+'), -1: prPurple('+')}
-=======
+
+
 icons = {1: prRed('X'), 0: prLightGray('X'), -1: prPurple('X')}
->>>>>>> 4f90ad6fab05c1f40769736dd62e53784ce54ab7
+
 
 
 def display(board):
