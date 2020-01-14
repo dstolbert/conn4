@@ -13,7 +13,7 @@ def prLightGray(skk): return "\033[97m {}\033[00m".format(skk)
 boardsize = (5, 6)
 
 
-icons = {1: prRed('O'), 0: prLightGray('O'), -1: prPurple('O')}
+icons = {1: prRed('X'), 0: prLightGray('X'), -1: prPurple('X')}
 
 
 def display(board):
